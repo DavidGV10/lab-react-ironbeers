@@ -6,7 +6,23 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.homeLinks{
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+.homeLinks img{
+  width: 100%;
+}
+.beerContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px
+}
+.beer{
+  width: 250px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
